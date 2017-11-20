@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+	background: url('Images/background.jpg') no-repeat center;
+	color: white;
+	font-family: "Sans-serif", bold;
+	font-size: 13px;
+}
+
+a {
+    color: goldenrod;
+}
+
+h1 {
+
+	font-size: 50px;
+	margin: 40px 0px 0px; /*top left/right bottom*/
+	font-family: 'Silkscreen';
+
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('Fonts/slkscr.ttf');
+    font-weight:400;
+}
+
+.top-buffer { margin-top: 40px;}
+
+.bottom-buffer { margin-top: 40px;}
+
+.small-buffer { margin-top: 10px;}
